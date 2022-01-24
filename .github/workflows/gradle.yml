@@ -3,9 +3,5 @@ name: Selenium Java CI
 on: [push]
 
 jobs:
-  build:
-    runs-on: ubuntu-latest # Using linux machine
-
-    steps:
-      - name: Running
-        uses: harshmdr-devslane/selenium/.github/workflows/main.yml@master
+  call-workflow-1:
+    uses: harshmdr-devslane/selenium/.github/workflows/main.yml@master
