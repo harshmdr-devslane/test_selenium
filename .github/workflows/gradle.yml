@@ -4,5 +4,4 @@ on: [push]
 
 jobs:
   call-workflow-1:
-    uses: harshmdr-devslane/selenium/.github/workflows/main.yml@master # minor comment
-
+    uses: harshmdr-devslane/selenium/.github/workflows/main.yml@master
