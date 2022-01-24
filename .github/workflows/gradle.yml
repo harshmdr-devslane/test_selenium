@@ -1,6 +1,7 @@
 name: Selenium Java CI
 
 on: [push]
-
-job_name:
-  uses: harshmdr-devslane/selenium/.github/workflows/main.yml@master
+jobs:
+  build:
+    job_name:
+      uses: harshmdr-devslane/selenium/.github/workflows/main.yml@master
